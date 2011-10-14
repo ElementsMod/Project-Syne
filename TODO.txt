@@ -1,0 +1,37 @@
+Features
+    -glass jars can be thrown and generate a block where they break
+    -demoic ruins
+    -diffrent runes for nether in dungeons
+        -elite shadow *name*
+    -minecraft mechanics bridge
+
+Blocks:
+    special crafter (no name yet)
+    purifier
+        -Textures
+	-recipies (need blocks and items done first)
+	-maybe a new fuel such as a flamible element or redstone (electricity for electralisis) but make it so it has glassjar and element in it then needs
+        redstone to power it
+	-make all 
+    elements 3-118
+
+generation:
+    all unpure blocks generate 
+
+recipies/items: (make a special crafter)
+    glass jars
+    1-118 pure elements in glassjars
+    (maybe not nobal gasses not shure yet tho) make neon make lightbulb (dye + lightbulb = colored light)
+Hydrogen:
+    hydrogen, floride = Hydrofluoric acid
+    hydrogen, chlorine = hydrochloric acid
+    hydrogen, bromide = hydrobromic acid
+    hydrogen, iodine = hydroiodic acid
+    hydrogen, oxygen = water
+    hydrogen, sulfer = explosive gas
+    hydrogen, nitrogen = ammonia (use like bonemeal)
+Helium:
+    (its a nobel gas it cant be combined may not add)
+lithium:
+    lithium, nitrogen = lithium nitride (explodes in water)
+FINISH WRIGHTING THIS OUT
