@@ -57,20 +57,42 @@ public class BlockPurifier extends BlockContainer
     {
         if(l == 1)
         {
-            return mod_miscBlocks.freezSide;
+            return mod_WyldeMod.purifierTop;
         }
         if(l == 0)
         {
-            return mod_miscBlocks.freezSide;
+            return mod_WyldeMod.purifierBottom;
         }
         int i1 = iblockaccess.getBlockMetadata(i, j, k);
         if(l != i1)
         {
-            return mod_miscBlocks.freezSide;
+            return mod_WyldeMod.purifierSide;
         }
-        else
+        if(isActive)
         {
-            return mod_miscBlocks.freezFront;
+            return mod_WyldeMod.purifierOn2;
+        } else
+        {
+            return mod_WyldeMod.purifierOff;
+        }
+    }
+    
+    public int getBlockTextureFromSide(int i)
+    {
+        if(i == 1)
+        {
+            return mod_WyldeMod.purifierTop;
+        }
+        if(i == 0)
+        {
+            return mod_WyldeMod.purifierBottom;
+        }
+        if(i == 3)
+        {
+            return mod_WyldeMod.purifierOff;
+        } else
+        {
+            return mod_WyldeMod.purifierSide;
         }
     }
 
@@ -78,11 +100,11 @@ public class BlockPurifier extends BlockContainer
     {
               if (side == 3)
               {
-                return mod_miscBlocks.freezFront;
+                return mod_miscBlocks.purifierOff;
               }
               else
               {
-                  return mod_miscBlocks.freezSide;
+                  return mod_miscBlocks.purifierSide;
               }
     }
 
