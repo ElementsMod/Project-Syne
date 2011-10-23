@@ -63,33 +63,43 @@ implements ITextureProvider
     {
         if(l == 1)
         {
-            return mod_miscBlocks.BessemerSide;
+            return mod_miscBlocks.BessemerTop;
         }
         if(l == 0)
         {
-            return mod_miscBlocks.BessemerSide;
+            return mod_miscBlocks.BessemerBottom;
         }
         int i1 = iblockaccess.getBlockMetadata(i, j, k);
         if(l != i1)
         {
             return mod_miscBlocks.BessemerSide;
         }
-        else
+        if(isActive)
         {
-            return mod_miscBlocks.BessemerFront;
+            return mod_miscBlocks.BessemerOn2;
+        } else
+        {
+            return mod_miscBlocks.BessemerOff;
         }
     }
-
-    public int getBlockTextureFromSide(int side)
+    
+    public int getBlockTextureFromSide(int i)
     {
-              if (side == 3)
-              {
-                return mod_miscBlocks.BessemerFront;
-              }
-              else
-              {
-                  return mod_miscBlocks.BessemerSide;
-              }
+        if(i == 1)
+        {
+            return mod_miscBlocks.BessemerTop;
+        }
+        if(i == 0)
+        {
+            return mod_miscBlocks.BessemerBottom;
+        }
+        if(i == 3)
+        {
+            return mod_miscBlocks.BessemerOff;
+        } else
+        {
+            return mod_miscBlocks.BessemerSide;
+        }
     }
 
 

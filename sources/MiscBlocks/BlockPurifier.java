@@ -1,7 +1,6 @@
 package net.minecraft.src;
 
 import java.util.Random;
-import net.minecraft.src.forge.*;
 
 public class BlockPurifier extends BlockContainer
 {
@@ -58,33 +57,64 @@ public class BlockPurifier extends BlockContainer
     {
         if(l == 1)
         {
-            return mod_miscBlocks.purifierSide;
+            return mod_miscBlocks.purifierTop;
         }
         if(l == 0)
         {
-            return mod_miscBlocks.purifierSide;
+            return mod_miscBlocks.purifierBottom;
         }
         int i1 = iblockaccess.getBlockMetadata(i, j, k);
         if(l != i1)
         {
             return mod_miscBlocks.purifierSide;
         }
-        else
+        if(isActive)
         {
-            return mod_miscBlocks.purifierFront;
+            return mod_miscBlocks.purifierOn2;
+        } else
+        {
+            return mod_miscBlocks.purifierOff;
         }
     }
-
-    public int getBlockTextureFromSide(int side)
+    
+    public int getBlockTextureFromSide(int i)
     {
-              if (side == 3)
-              {
-                return mod_miscBlocks.purifierFront;
-              }
-              else
-              {
-                  return mod_miscBlocks.purifierSide;
-              }
+        if(i == 1)
+        {
+            return mod_miscBlocks.purifierTop;
+        }
+        if(i == 0)
+        {
+            return mod_miscBlocks.purifierBottom;
+        }
+        if(i == 3)
+        {
+            return mod_miscBlocks.purifierOff;
+        } else
+        {
+            return mod_miscBlocks.purifierSide;
+        }
+    }
+    
+    public static void updateOvenBlockState(boolean flag, World world, int i, int j, int k)
+    {
+        int l = world.getBlockMetadata(i, j, k);
+        TileEntity tileentity = world.getBlockTileEntity(i, j, k);
+        keepPurifierInventory = true;
+        if(flag)
+        {
+            world.setBlockWithNotify(i, j, k, mod_miscBlocks.PurifierOn.blockID);
+        } else
+        {
+            world.setBlockWithNotify(i, j, k, mod_miscBlocks.Purifier.blockID);
+        }
+        keepPurifierInventory = false;
+        world.setBlockMetadataWithNotify(i, j, k, l);
+        if(tileentity != null)
+        {
+            tileentity.validate();
+            world.setBlockTileEntity(i, j, k, tileentity);
+        }
     }
 
 
@@ -95,8 +125,8 @@ public class BlockPurifier extends BlockContainer
             return true;
         } else
         {
-            TileEntityPurifier tileentityPurifier = (TileEntityPurifier)world.getBlockTileEntity(i, j, k);
-            ModLoader.OpenGUI(entityplayer, new GuiPurifier(entityplayer.inventory, tileentityPurifier));
+            TileEntityPurifier tileentitypurifier = (TileEntityPurifier)world.getBlockTileEntity(i, j, k);
+            ModLoader.OpenGUI(entityplayer, new GuiPurifier(entityplayer.inventory, tileentitypurifier));
             return true;
         }
     }
@@ -130,11 +160,11 @@ public class BlockPurifier extends BlockContainer
     {
         if(!keepPurifierInventory)
         {
-            TileEntityPurifier tileentityPurifier = (TileEntityPurifier)world.getBlockTileEntity(i, j, k);
+            TileEntityPurifier tileentitypurifier = (TileEntityPurifier)world.getBlockTileEntity(i, j, k);
 label0:
-            for(int l = 0; l < tileentityPurifier.getSizeInventory(); l++)
+            for(int l = 0; l < tileentitypurifier.getSizeInventory(); l++)
             {
-                ItemStack itemstack = tileentityPurifier.getStackInSlot(l);
+                ItemStack itemstack = tileentitypurifier.getStackInSlot(l);
                 if(itemstack == null)
                 {
                     continue;
