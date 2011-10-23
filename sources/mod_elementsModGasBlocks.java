@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import java.util.Random;
+import net.minecraft.src.forge.*;
 
 public class mod_elementsModGasBlocks extends BaseMod
 {
@@ -11,49 +12,41 @@ public class mod_elementsModGasBlocks extends BaseMod
 
 	public mod_elementsModGasBlocks()
 	{
+		MinecraftForgeClient.preloadTexture("/elements/Gas/Gas.png");
+		world = ModLoader.getMinecraftInstance().theWorld;
+		
 		ModLoader.RegisterBlock(Hydrogen);
 		ModLoader.AddName(Hydrogen, "Hydrogen");
-		Hydrogen.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/1.png");
 
 		ModLoader.RegisterBlock(Helium);
 		ModLoader.AddName(Helium, "Helium");
-		Helium.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/2.png");
 		
 		ModLoader.RegisterBlock(Nitrogen);
 		ModLoader.AddName(Nitrogen, "Nitrogen");
-		Hydrogen.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/7.png");
 
 		ModLoader.RegisterBlock(Oxygen);
 		ModLoader.AddName(Oxygen, "Oxygen");
-		Helium.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/8.png");
 		
 		ModLoader.RegisterBlock(Fluorine);
 		ModLoader.AddName(Fluorine, "Fluorine");
-		Hydrogen.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/9.png");
 
 		ModLoader.RegisterBlock(Neon);
 		ModLoader.AddName(Neon, "Neon");
-		Helium.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/10.png");
 		
 		ModLoader.RegisterBlock(Chlorine);
 		ModLoader.AddName(Chlorine, "Chlorine");
-		Hydrogen.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/17.png");
 
 		ModLoader.RegisterBlock(Argon);
 		ModLoader.AddName(Argon, "Argon");
-		Helium.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/18.png");
 		
 		ModLoader.RegisterBlock(Krypton);
 		ModLoader.AddName(Krypton, "Krypton");
-		Hydrogen.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/36.png");
 
 		ModLoader.RegisterBlock(Xenon);
 		ModLoader.AddName(Xenon, "Xenon");
-		Helium.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/54.png");
 		
 		ModLoader.RegisterBlock(Radon);
 		ModLoader.AddName(Radon, "Radon");
-		Hydrogen.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/Gas/86.png");
 	}
     
     //generate floating blocks
@@ -78,6 +71,8 @@ public class mod_elementsModGasBlocks extends BaseMod
         }
     }
     
+    World world;
+    
 	// Block
 	public static final Block Hydrogen;
     public static final Block Helium;
@@ -95,15 +90,15 @@ public class mod_elementsModGasBlocks extends BaseMod
 	static
 	{
 		Hydrogen = (new BlockHydrogen(116, 0)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Hydrogen");
-        Helium = (new BlockHelium(117, 0)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Helium");
-        Nitrogen = (new BlockNitrogen(118,17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Nitrogen");
-        Oxygen = (new BlockOxygen(119, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Oxygen");
-        Fluorine = (new BlockFluorine(120, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Fluorine");
-        Neon = (new BlockNeon(121, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Neon");
-        Chlorine = (new BlockChlorine(122, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Chlorine");
-        Argon = (new BlockArgon(123, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Argon");
-        Krypton = (new BlockKrypton(124, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Krypton");
-        Xenon = (new BlockXenon(125, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Xenon");
-        Radon = (new BlockRadon(126, 17)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Radon");
+        Helium = (new BlockHelium(117, 1)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Helium");
+        Nitrogen = (new BlockNitrogen(118,2)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Nitrogen");
+        Oxygen = (new BlockOxygen(119, 3)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Oxygen");
+        Fluorine = (new BlockFluorine(120, 4)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Fluorine");
+        Neon = (new BlockNeon(121, 5)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Neon");
+        Chlorine = (new BlockChlorine(122, 6)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Chlorine");
+        Argon = (new BlockArgon(123, 7)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Argon");
+        Krypton = (new BlockKrypton(124, 18)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Krypton");
+        Xenon = (new BlockXenon(125, 19)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Xenon");
+        Radon = (new BlockRadon(126, 20)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Radon");
 	}
 }

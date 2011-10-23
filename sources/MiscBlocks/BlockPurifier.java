@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import java.util.Random;
+import net.minecraft.src.forge.*;
 
 public class BlockPurifier extends BlockContainer
 {
@@ -57,20 +58,20 @@ public class BlockPurifier extends BlockContainer
     {
         if(l == 1)
         {
-            return mod_miscBlocks.freezSide;
+            return mod_miscBlocks.purifierSide;
         }
         if(l == 0)
         {
-            return mod_miscBlocks.freezSide;
+            return mod_miscBlocks.purifierSide;
         }
         int i1 = iblockaccess.getBlockMetadata(i, j, k);
         if(l != i1)
         {
-            return mod_miscBlocks.freezSide;
+            return mod_miscBlocks.purifierSide;
         }
         else
         {
-            return mod_miscBlocks.freezFront;
+            return mod_miscBlocks.purifierFront;
         }
     }
 
@@ -78,11 +79,11 @@ public class BlockPurifier extends BlockContainer
     {
               if (side == 3)
               {
-                return mod_miscBlocks.freezFront;
+                return mod_miscBlocks.purifierFront;
               }
               else
               {
-                  return mod_miscBlocks.freezSide;
+                  return mod_miscBlocks.purifierSide;
               }
     }
 

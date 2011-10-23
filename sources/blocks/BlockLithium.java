@@ -1,9 +1,15 @@
 package net.minecraft.src;
 
 import java.util.Random;
+import net.minecraft.src.forge.*;
 
 public class BlockLithium extends Block
 {
+    public String getTextureFile()
+    {
+	    return "/elements/solid/solid.png";
+    }
+    
 	public BlockLithium(int i, int j)
 	{
 		super(i, j, Material.ground);

@@ -1,29 +1,41 @@
 package net.minecraft.src;
 
 import java.util.Random;
+import net.minecraft.src.forge.*;
 
 public class BlockHydrogen extends Block
+implements ITextureProvider
 {
+    public String getTextureFile()
+    {
+	    return "/elements/Gas/Gas.png";
+    }
+    
 	public BlockHydrogen(int i, int j)
 	{
 		super(i, j, Material.air);
 	}
+	
 	protected void initializeBlock()
     {
 		return;
     }
+	
 	public int getRenderType()
     {
         return 0;
     }
+	
 	public boolean isAirBlock()
     {
         return true;
     }
+	
 	public boolean isOpaqueCube()
     {
 	    return false;
 	}
+	
 	public boolean renderAsNormalBlock()
     {
 	    return false;
