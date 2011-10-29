@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.forge.*;
 
 public class BlockUnunseptium extends Block
+implements ITextureProvider
 {
     public String getTextureFile()
     {

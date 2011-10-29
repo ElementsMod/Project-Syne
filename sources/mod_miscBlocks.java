@@ -19,9 +19,13 @@ public class mod_miscBlocks extends BaseMod
 	    CondenserBottom = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierBottom.png");
 	    CondenserOff = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOff.png");
 	    
+	    //Register blocks
         ModLoader.RegisterBlock(Purifier);
         ModLoader.RegisterBlock(PurifierOn);
         ModLoader.RegisterTileEntity(net.minecraft.src.TileEntityPurifier.class, "Purifier");
+        
+        ModLoader.RegisterBlock(Bessemer);
+        ModLoader.RegisterTileEntity(net.minecraft.src.TileEntityPurifier.class, "Bessemer");
         
         ModLoader.RegisterBlock(Condenser);
         ModLoader.RegisterBlock(CondenserOn);
@@ -29,10 +33,17 @@ public class mod_miscBlocks extends BaseMod
         ModLoader.RegisterBlock(neonLightOff);
         ModLoader.RegisterBlock(neonLightOn);
         
-        ModLoader.AddName(Purifier, "Purifier");      
-        ModLoader.AddName(Condenser, "Condenser");
-        ModLoader.AddName(neonLightOff, "Neon Light");
+        //in game names
+        ModLoader.AddName(Purifier, "Purifier");
+        ModLoader.AddName(PurifierOn, "Purifier");  
         
+        ModLoader.AddName(Condenser, "Condenser");
+        ModLoader.AddName(CondenserOn, "Condenser");
+        
+        ModLoader.AddName(neonLightOff, "Neon Light");
+        ModLoader.AddName(neonLightOn, "Neon Light");
+        
+        //Recipes
         ModLoader.AddRecipe(new ItemStack(Purifier, 1), new Object[]{
             "XXX", "XYX", "XXX", 
             Character.valueOf('X'), Block.cobblestone,
@@ -44,22 +55,6 @@ public class mod_miscBlocks extends BaseMod
             Character.valueOf('X'), Block.cobblestone,
         });
         
-        System.out.println("Misc Blocks Loaded");
-		
-        ModLoader.RegisterBlock(Purifier);
-        ModLoader.AddName(Purifier, "Purifier");
-        ModLoader.RegisterTileEntity(net.minecraft.src.TileEntityPurifier.class, "Purifier");
-        
-        ModLoader.AddRecipe(new ItemStack(Purifier, 1), new Object[]{
-            "XXX", "XYX", "XXX", 
-            Character.valueOf('X'), Block.cobblestone,
-            Character.valueOf('Y'), Block.dirt //i don't know yet
-        });
-            
-        ModLoader.RegisterBlock(Bessemer);
-        ModLoader.AddName(Bessemer, "Bessemer");
-        ModLoader.RegisterTileEntity(net.minecraft.src.TileEntityPurifier.class, "Bessemer");
-        
         ModLoader.AddRecipe(new ItemStack(Bessemer, 1), new Object[]{
             "XXX", "YYY", "XXX", 
             Character.valueOf('X'), Block.cobblestone,
@@ -67,10 +62,9 @@ public class mod_miscBlocks extends BaseMod
         });
 	}
     
-	
+	//statics
 	public static final Block Purifier = (new BlockPurifier(235, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Purifier");
 	public static final Block PurifierOn = (new BlockPurifier(236, true)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("PurifierOn");
-
 	public static int purifierSide = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierSide.png");
 	public static int purifierOn2 = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int purifierTop = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierTop.png");
@@ -79,7 +73,6 @@ public class mod_miscBlocks extends BaseMod
     
     public static final Block Condenser = (new BlockPurifier(237, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Condenser");
 	public static final Block CondenserOn = (new BlockPurifier(238, true)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("CondenserOn");
-
 	public static int CondenserSide = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierSide.png");
 	public static int CondenserOn2 = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int CondenserTop = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierTop.png");
@@ -89,8 +82,7 @@ public class mod_miscBlocks extends BaseMod
     public static final Block neonLightOff = (new BlockNeonLight(239, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOff.png"), Material.glass).setHardness(3F).setResistance(5F).setBlockName("light"));
     public static final Block neonLightOn = (new BlockNeonLight(240, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOn.png"), Material.glass).setHardness(3F).setResistance(5F).setLightValue(1F).setBlockName("light"));
     
-    public static final Block Bessemer = (new BlockPurifier(233, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Purifier");
-    
+    public static final Block Bessemer = (new BlockPurifier(233, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Bessemer");
     public static int BessemerSide = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int BessemerOn2 = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int BessemerTop = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierTop.png");

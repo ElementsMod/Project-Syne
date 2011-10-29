@@ -547,6 +547,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
     	Ununoctium = (new BlockUnunoctium(231, 104)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("");
 	}
 
+    //generation
 	public void GenerateSurface(World world, Random random, int chunkX,int chunkZ)
 	{
 		int pozX;

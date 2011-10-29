@@ -4,6 +4,7 @@ import java.util.Random;
 import net.minecraft.src.forge.*;
 
 public class BlockRhodium extends Block
+implements ITextureProvider
 {
     public String getTextureFile()
     {
