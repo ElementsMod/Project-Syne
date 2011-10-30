@@ -82,7 +82,7 @@ public class mod_miscBlocks extends BaseMod
     public static final Block neonLightOff = (new BlockNeonLight(239, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOff.png"), Material.glass).setHardness(3F).setResistance(5F).setBlockName("light"));
     public static final Block neonLightOn = (new BlockNeonLight(240, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOn.png"), Material.glass).setHardness(3F).setResistance(5F).setLightValue(1F).setBlockName("light"));
     
-    public static final Block Bessemer = (new BlockPurifier(233, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Bessemer");
+    public static final Block Bessemer = (new BlockBessemer(233, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Bessemer");
     public static int BessemerSide = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int BessemerOn2 = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int BessemerTop = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierTop.png");
