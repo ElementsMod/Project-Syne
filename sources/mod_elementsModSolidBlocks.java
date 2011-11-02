@@ -27,7 +27,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Carbon);
 		ModLoader.AddName(Carbon, "Carbon");
         
-        ModLoader.RegisterBlock(Sodium);
+        	ModLoader.RegisterBlock(Sodium);
 		ModLoader.AddName(Sodium, "Sodium");
 		
 		ModLoader.RegisterBlock(Magnesium);
@@ -39,7 +39,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Silicon);
 		ModLoader.AddName(Silicon, "Silicon");
         
-        ModLoader.RegisterBlock(Phosphorus);
+        	ModLoader.RegisterBlock(Phosphorus);
 		ModLoader.AddName(Phosphorus, "Phosphorus");
 		
 		ModLoader.RegisterBlock(Sulfur);
@@ -51,7 +51,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Calcium);
 		ModLoader.AddName(Calcium, "Calcium");
         
-        ModLoader.RegisterBlock(Scandium);
+        	ModLoader.RegisterBlock(Scandium);
 		ModLoader.AddName(Scandium, "Scandium");
 		
 		ModLoader.RegisterBlock(Titanium);
@@ -63,10 +63,10 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Chromium);
 		ModLoader.AddName(Chromium, "Chromium");
         
-        ModLoader.RegisterBlock(Manganese);
+        	ModLoader.RegisterBlock(Manganese);
 		ModLoader.AddName(Manganese, "Manganese");
 		
-        ModLoader.RegisterBlock(Cobalt);
+        	ModLoader.RegisterBlock(Cobalt);
 		ModLoader.AddName(Cobalt, "Cobalt");
         
 		ModLoader.RegisterBlock(Nickel);
@@ -75,7 +75,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Copper);
 		ModLoader.AddName(Copper, "Copper");
         
-        ModLoader.RegisterBlock(Zinc);
+        	ModLoader.RegisterBlock(Zinc);
 		ModLoader.AddName(Zinc, "Zinc");
 		
 		ModLoader.RegisterBlock(Gallium);
@@ -87,7 +87,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Arsenic);
 		ModLoader.AddName(Arsenic, "Arsenic");
         
-        ModLoader.RegisterBlock(Selenium);
+        	ModLoader.RegisterBlock(Selenium);
 		ModLoader.AddName(Selenium, "Selenium");
 		
 		ModLoader.RegisterBlock(Bromine);
@@ -99,7 +99,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Strontium);
 		ModLoader.AddName(Strontium, "Strontium");
         
-        ModLoader.RegisterBlock(Yttrium);
+        	ModLoader.RegisterBlock(Yttrium);
 		ModLoader.AddName(Yttrium, "Yttrium");
 		
 		ModLoader.RegisterBlock(Zirconium);
@@ -111,7 +111,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Molybdenum);
 		ModLoader.AddName(Molybdenum, "Molybdenum");
 
-        ModLoader.RegisterBlock(Technetium);
+        	ModLoader.RegisterBlock(Technetium);
 		ModLoader.AddName(Technetium, "Technetium");
 		
 		ModLoader.RegisterBlock(Ruthenium);
@@ -123,7 +123,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Palladium);
 		ModLoader.AddName(Palladium, "Palladium");
 
-        ModLoader.RegisterBlock(Silver);
+        	ModLoader.RegisterBlock(Silver);
 		ModLoader.AddName(Silver, "Silver");
 		
 		ModLoader.RegisterBlock(Cadmium);
@@ -132,7 +132,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Indium);
 		ModLoader.AddName(Indium, "Indium");
 
-        ModLoader.RegisterBlock(Tin);
+        	ModLoader.RegisterBlock(Tin);
 		ModLoader.AddName(Tin, "Tin");
 		
 		ModLoader.RegisterBlock(Antimony);
@@ -144,25 +144,25 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Iodine);
 		ModLoader.AddName(Iodine, "Iodine");
 
-        ModLoader.RegisterBlock(Caesium);
+        	ModLoader.RegisterBlock(Caesium);
 		ModLoader.AddName(Caesium, "Caesium");
 		
 		ModLoader.RegisterBlock(Barium);
 		ModLoader.AddName(Barium, "Barium");
 		
-        ModLoader.RegisterBlock(Lanthanum);
+        	ModLoader.RegisterBlock(Lanthanum);
 		ModLoader.AddName(Lanthanum, "Lanthanum");
 		
-        ModLoader.RegisterBlock(Cerium);
+        	ModLoader.RegisterBlock(Cerium);
 		ModLoader.AddName(Cerium, "Cerium");
         
-        ModLoader.RegisterBlock(Praseodymium);
+        	ModLoader.RegisterBlock(Praseodymium);
 		ModLoader.AddName(Praseodymium, "Praseodymium");
 		
 		ModLoader.RegisterBlock(Neodymium);
 		ModLoader.AddName(Neodymium, "Neodymium");
         
-        ModLoader.RegisterBlock(Promethium);
+        	ModLoader.RegisterBlock(Promethium);
 		ModLoader.AddName(Promethium, "Promethium");
 		
 		ModLoader.RegisterBlock(Samarium);
@@ -174,7 +174,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Gadolinium);
 		ModLoader.AddName(Gadolinium, "Gadolinium");
         
-        ModLoader.RegisterBlock(Terbium);
+        	ModLoader.RegisterBlock(Terbium);
 		ModLoader.AddName(Terbium, "Terbium");
 		
 		ModLoader.RegisterBlock(Dysprosium);
@@ -186,7 +186,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Erbium);
 		ModLoader.AddName(Erbium, "Erbium");
         
-        ModLoader.RegisterBlock(Thulium);
+        	ModLoader.RegisterBlock(Thulium);
 		ModLoader.AddName(Thulium, "Thulium");
 		
 		ModLoader.RegisterBlock(Ytterbium);
@@ -198,7 +198,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Hafnium);
 		ModLoader.AddName(Hafnium, "Hafnium");
         
-        ModLoader.RegisterBlock(Hafnium);
+        	ModLoader.RegisterBlock(Hafnium);
 		ModLoader.AddName(Hafnium, "Hafnium");
 		
 		ModLoader.RegisterBlock(Tungsten);
@@ -210,10 +210,10 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Osmium);
 		ModLoader.AddName(Osmium, "Osmium");
         
-        ModLoader.RegisterBlock(Iridium);
+        	ModLoader.RegisterBlock(Iridium);
 		ModLoader.AddName(Iridium, "Iridium");
 		
-        ModLoader.RegisterBlock(Platinum);
+        	ModLoader.RegisterBlock(Platinum);
 		ModLoader.AddName(Platinum, "Platinum");
         
 		ModLoader.RegisterBlock(Mercury);
@@ -222,7 +222,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Thallium);
 		ModLoader.AddName(Thallium, "Thallium");
         
-        ModLoader.RegisterBlock(Lead);
+        	ModLoader.RegisterBlock(Lead);
 		ModLoader.AddName(Lead, "Lead");
 		
 		ModLoader.RegisterBlock(Bismuth);
@@ -234,7 +234,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Astatine);
 		ModLoader.AddName(Astatine, "Astatine");
         
-        ModLoader.RegisterBlock(Francium);
+        	ModLoader.RegisterBlock(Francium);
 		ModLoader.AddName(Francium, "Francium");
 		
 		ModLoader.RegisterBlock(Radium);
@@ -246,7 +246,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Thorium);
 		ModLoader.AddName(Thorium, "Thorium");
         
-        ModLoader.RegisterBlock(Protactinium);
+        	ModLoader.RegisterBlock(Protactinium);
 		ModLoader.AddName(Protactinium, "Protactinium");
 		
 		ModLoader.RegisterBlock(Uranium);
@@ -258,7 +258,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Plutonium);
 		ModLoader.AddName(Plutonium, "Plutonium");
 
-        ModLoader.RegisterBlock(Americium);
+        	ModLoader.RegisterBlock(Americium);
 		ModLoader.AddName(Americium, "Americium");
 		
 		ModLoader.RegisterBlock(Curium);
@@ -270,7 +270,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Californium);
 		ModLoader.AddName(Californium, "Californium");
 
-        ModLoader.RegisterBlock(Einsteinium);
+        	ModLoader.RegisterBlock(Einsteinium);
 		ModLoader.AddName(Einsteinium, "Einsteinium");
 		
 		ModLoader.RegisterBlock(Fermium);
@@ -279,7 +279,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Mendelevium);
 		ModLoader.AddName(Mendelevium, "Mendelevium");
 
-        ModLoader.RegisterBlock(Nobelium);
+        	ModLoader.RegisterBlock(Nobelium);
 		ModLoader.AddName(Nobelium, "Nobelium");
 		
 		ModLoader.RegisterBlock(Lawrencium);
@@ -291,19 +291,19 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Dubnium);
 		ModLoader.AddName(Dubnium, "Dubnium");
 
-        ModLoader.RegisterBlock(Seaborgium);
+        	ModLoader.RegisterBlock(Seaborgium);
 		ModLoader.AddName(Seaborgium, "Seaborgium");
 		
 		ModLoader.RegisterBlock(Bohrium);
 		ModLoader.AddName(Bohrium, "Bohrium");
 		
-        ModLoader.RegisterBlock(Hassium);
+        	ModLoader.RegisterBlock(Hassium);
 		ModLoader.AddName(Hassium, "Hassium");
 		
-        ModLoader.RegisterBlock(Meitnerium);
+        	ModLoader.RegisterBlock(Meitnerium);
 		ModLoader.AddName(Meitnerium, "Meitnerium");
         
-        ModLoader.RegisterBlock(Darmstadtium);
+        	ModLoader.RegisterBlock(Darmstadtium);
 		ModLoader.AddName(Darmstadtium, "Darmstadtium");
 		
 		ModLoader.RegisterBlock(Roentgenium);
@@ -312,19 +312,19 @@ public class mod_elementsModSolidBlocks extends BaseMod
 		ModLoader.RegisterBlock(Copernicium);
 		ModLoader.AddName(Copernicium, "Copernicium");
 
-        ModLoader.RegisterBlock(Ununtrium);
+        	ModLoader.RegisterBlock(Ununtrium);
 		ModLoader.AddName(Ununtrium, "Ununtrium");
 		
 		ModLoader.RegisterBlock(Ununquadium);
 		ModLoader.AddName(Ununquadium, "Ununquadium");
 		
-        ModLoader.RegisterBlock(Ununpentium);
+        	ModLoader.RegisterBlock(Ununpentium);
 		ModLoader.AddName(Ununpentium, "Ununpentium");
 		
-        ModLoader.RegisterBlock(Ununhexium);
+        	ModLoader.RegisterBlock(Ununhexium);
 		ModLoader.AddName(Ununhexium, "Ununhexium");
         
-        ModLoader.RegisterBlock(Ununseptium);
+        	ModLoader.RegisterBlock(Ununseptium);
 		ModLoader.AddName(Ununseptium, "Ununseptium");
 		
 		ModLoader.RegisterBlock(Ununoctium);
@@ -332,7 +332,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 	}
 	
 	//Blocks
-	public static final Block Lithium;
+    public static final Block Lithium;
     public static final Block Beryllium;
     public static final Block Boron;
     public static final Block Carbon;
@@ -440,7 +440,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
     
     //Block Info
     static{
-		Lithium = (new BlockLithium(127, 0)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Lithium");
+	Lithium = (new BlockLithium(127, 0)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Lithium");
     	Beryllium = (new BlockBeryllium(128, 1)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Beryllium");
     	Boron = (new BlockBoron(129, 2)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Boron");
     	Carbon = (new BlockCarbon(130, 3)).setHardness(1F).setResistance(1F).setStepSound(Block.soundStoneFootstep).setBlockName("Carbon");
