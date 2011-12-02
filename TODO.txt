@@ -5,10 +5,10 @@ Features
     -diffrent runes (elements) for nether in dungeons
     -elite shadow name
     -minecraft mechanics bridge
+    -Radiation
  
 Blocks
     special crafter (no name yet)
-    purifier
     -Textures
     -recipies (need blocks and items done first)
     -maybe a new fuel such as a flamible element or redstone (electricity for electralisis) but make it so it has glassjar and element in it then needs
@@ -20,7 +20,8 @@ generation
     fix generation
     some elemets come frome others such as iron (maybe a seperator or a chace to drop)
 
-recipiesitems (make a special crafter)
+recipies
+    items (make a special crafter)
     glass jars
     1-118 pure elements in glassjars
     (maybe not nobal gasses not shure yet tho)
