@@ -1,0 +1,61 @@
+if 1 adds this:
+Jake: block 1234 = bob
+Jake: ad ours adds this to same file
+Jake: block 3412 = name
+[ | Edited 2:21:12 PM] Jake: we can make aother dowload with the file with both block 3412 = name and block 1234 = bob in it
+Jake: and then say like
+Jake: if you wat this to work with (other mod)
+Jake: add this class after installi both
+Jake: installing
+Alexander Russo: ya
+Jake: even better
+Alexander Russo: say like
+Alexander Russo: "Mod Installation Fixes"
+Jake: o the wiki or somethign make
+Jake: a serch engione
+[ | Edited 2:23:27 PM] Jake: like so u checkbox all the mods u want and then it tells u what patch to get
+
+
+
+Features
+    -elements that come from say iron theres a 1 in 10 chace it drops some
+    -glass jars can be thrown and generate a block where they break
+    -demoic ruins
+    -diffrent runes (elements) for nether in dungeons
+    -elite shadow name
+    -minecraft mechanics bridge
+    -Radiation
+ 
+Blocks
+    special crafter (no name yet)
+    -Textures
+    -recipies (need blocks and items done first)
+    -maybe a new fuel such as a flamible element or redstone (electricity for electralisis) but make it so it has glassjar and element in it then needs
+    redstone to power it
+    -recipies
+ 
+generation
+    all unpure blocks generate 
+    fix generation
+    some elemets come frome others such as iron (maybe a seperator or a chace to drop)
+
+recipies
+    items (make a special crafter)
+    glass jars
+    1-118 pure elements in glassjars
+    (maybe not nobal gasses not shure yet tho)
+    neon light (dye + lightbulb = colored light)
+
+    Hydrogen
+        hydrogen, floride = Hydrofluoric acid
+        hydrogen, chlorine = hydrochloric acid
+        hydrogen, bromide = hydrobromic acid
+        hydrogen, iodine = hydroiodic acid
+        hydrogen, oxygen = water
+        hydrogen, sulfer = explosive gas
+        hydrogen, nitrogen = ammonia (use like bonemeal)
+    Helium
+        (its a nobel gas it cant be combined may not add)
+    lithium
+        lithium, nitrogen = lithium nitride (explodes in water)
+    FINISH WRIGHTING THIS OUT
