@@ -36,4 +36,10 @@ public class GuiPurifier extends GuiContainer
     }
 
     private TileEntityPurifier PurifierInventory;
+
+	@Override
+	protected void drawGuiContainerBackgroundLayer(float f, int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -269,4 +269,9 @@ public class TileEntityPurifier extends TileEntity
     public int PurifierBurnTime;
     public int currentItemBurnTime;
     public int PurifierCookTime;
+	@Override
+	public boolean isUseableByPlayer(EntityPlayer entityplayer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

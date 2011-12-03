@@ -7,10 +7,10 @@ public class mod_Armor extends BaseMod
 		return "1.8.1";
 	}
 	
-	public static final Item HazmatHelmet = new ItemArmor (1110, 2, ModLoader.AddArmor("hazmat"), 0).setItemName("Hazmat Mask");
-	public static final Item HazmatBody = new ItemArmor (1111, 2, ModLoader.AddArmor("hazmat"), 1).setItemName("Hazmat Body");
-	public static final Item HazmatPants= new ItemArmor (1112, 2, ModLoader.AddArmor("hazmat"), 2).setItemName("Hazmat Pants");
-	public static final Item HazmatBoots = new ItemArmor (1113, 2, ModLoader.AddArmor("hazmat"), 3).setItemName("Hazmat Boots");
+	public static final Item HazmatHelmet = new ItemArmor (1110, EnumArmorMaterial.CLOTH, ModLoader.AddArmor("hazmat"), 0).setItemName("Hazmat Mask");
+	public static final Item HazmatBody = new ItemArmor (1111, EnumArmorMaterial.CLOTH, ModLoader.AddArmor("hazmat2"), 1).setItemName("Hazmat Body");
+	public static final Item HazmatPants= new ItemArmor (1112, EnumArmorMaterial.CLOTH, ModLoader.AddArmor("hazmat3"), 2).setItemName("Hazmat Pants");
+	public static final Item HazmatBoots = new ItemArmor (1113, EnumArmorMaterial.CLOTH, ModLoader.AddArmor("hazmat4"), 3).setItemName("Hazmat Boots");
 	
 	public mod_Armor()
 	{
@@ -47,5 +47,17 @@ public class mod_Armor extends BaseMod
             Character.valueOf('X'), Block.sand,
             Character.valueOf('Y'), Block.dirt //i don't know yet
         });
+	}
+
+	@Override
+	public String getVersion() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void load() {
+		// TODO Auto-generated method stub
+		
 	}
 }

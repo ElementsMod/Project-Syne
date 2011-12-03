@@ -36,4 +36,10 @@ public class GuiBessemer extends GuiContainer
     }
 
     private TileEntityBessemer BessemerInventory;
+
+	@Override
+	protected void drawGuiContainerBackgroundLayer(float f, int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -63,26 +63,26 @@ public class mod_miscBlocks extends BaseMod
 	}
     
 	//statics
-	public static final Block Purifier = (new BlockPurifier(235, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Purifier");
-	public static final Block PurifierOn = (new BlockPurifier(236, true)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("PurifierOn");
+	public static final Block Purifier = (new BlockPurifier(237, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Purifier");
+	public static final Block PurifierOn = (new BlockPurifier(238, true)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("PurifierOn");
 	public static int purifierSide = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierSide.png");
 	public static int purifierOn2 = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int purifierTop = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierTop.png");
     public static int purifierBottom = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierBottom.png");
     public static int purifierOff = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOff.png");
     
-    public static final Block Condenser = (new BlockPurifier(237, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Condenser");
-	public static final Block CondenserOn = (new BlockPurifier(238, true)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("CondenserOn");
+    public static final Block Condenser = (new BlockPurifier(239, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Condenser");
+	public static final Block CondenserOn = (new BlockPurifier(240, true)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("CondenserOn");
 	public static int CondenserSide = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierSide.png");
 	public static int CondenserOn2 = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int CondenserTop = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierTop.png");
     public static int CondenserBottom = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierBottom.png");
     public static int CondenserOff = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOff.png");
     
-    public static final Block neonLightOff = (new BlockNeonLight(239, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOff.png"), Material.glass).setHardness(3F).setResistance(5F).setBlockName("light"));
-    public static final Block neonLightOn = (new BlockNeonLight(240, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOn.png"), Material.glass).setHardness(3F).setResistance(5F).setLightValue(1F).setBlockName("light"));
+    public static final Block neonLightOff = (new BlockNeonLight(241, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOff.png"), Material.glass).setHardness(3F).setResistance(5F).setBlockName("light"));
+    public static final Block neonLightOn = (new BlockNeonLight(242, ModLoader.addOverride("/terrain.png", "/elements/misc/neon/GreenLightOn.png"), Material.glass).setHardness(3F).setResistance(5F).setLightValue(1F).setBlockName("light"));
     
-    public static final Block Bessemer = (new BlockBessemer(233, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Bessemer");
+    public static final Block Bessemer = (new BlockBessemer(243, false)).setHardness(0.1F).setResistance(.1F).setStepSound(Block.soundClothFootstep).setBlockName("Bessemer");
     public static int BessemerSide = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int BessemerOn2 = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierOn2.png");
 	public static int BessemerTop = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierTop.png");
@@ -92,6 +92,18 @@ public class mod_miscBlocks extends BaseMod
 	static
 	{
 
+	}
+
+	@Override
+	public String getVersion() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void load() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

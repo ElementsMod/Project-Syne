@@ -269,4 +269,9 @@ public class TileEntityBessemer extends TileEntity
     public int BessemerBurnTime;
     public int currentItemBurnTime;
     public int BessemerCookTime;
+	@Override
+	public boolean isUseableByPlayer(EntityPlayer entityplayer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
