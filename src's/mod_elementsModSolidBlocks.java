@@ -10,7 +10,7 @@ import java.util.Random;
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.forge.*;
 
-public class mod_elementsModSolidBlocks extends BaseMod
+public class mod_ElementsModSolidBlocks extends BaseMod
 {
 	public String Version()
 	{
@@ -19,7 +19,7 @@ public class mod_elementsModSolidBlocks extends BaseMod
 	
 	private static mod_ElementsModConfig EM;
 	
-	public mod_elementsModSolidBlocks()
+	public mod_ElementsModSolidBlocks()
 	{
 		MinecraftForgeClient.preloadTexture("/elements/solid/solid.png");
 		world = ModLoader.getMinecraftInstance().theWorld;
