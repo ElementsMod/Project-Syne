@@ -1,0 +1,17 @@
+1.0.0
+changes to src\pictures\elements\misc\neon - removed NeonLightOff/NeonLightOn
+changes to src\blocks - removed NeonLight.java, NeonLightOn.java
+changes to src\blocks - added Neon Light colours (Red, Yellow, Blue, Green, Blue, purple, White) - BlockNeonLightRed.java, BlockNeonLightOrange.java, BlockNeonLightYellow.java, BlockNeonLightGreen.java, BlockNeonLightBlue.java, BlockNeonLightPurple.java, BlockNeonLightWhite.java, BlockNeonLightRedOn.java, BlockNeonLightOrangeOn.java, BlockNeonLightYellowOn.java, BlockNeonLightGreenOn.java, BlockNeonLightBlueOn.java, BlockNeonLightPurpleOn.java, BlockNeonLightWhiteOn.java
+changes to src\mod_miscBlocks - regestered Neon Lights (Red, Yellow, Blue, Green, Blue, purple, White) - added recipies
+changes to # of block ids left lowest unused block id is now 251
+changes to block ids - organized them better
+added a new class - mod_RadDamage
+changes to uranium.java - added damage on contact (still need radius)
+compressed gas blocks to 1 block id
+added a new class BlockMultiple.java - extends Block.java
+added a new class ItemMultiblock.java - extends ItemBlock.java
+changes to PurifierRecipies.java - removed recipie because of id compression
+##NOTE: Currentally no compile errors##
+##CRASH: Crashes on placing gravel in crafter## somthig with gas block textures##
+##Note: no elemetns have textures done *cough* jesse *cough*##
+##BUG: neonlights and other no gen blocks are generating##
