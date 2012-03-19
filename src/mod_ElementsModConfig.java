@@ -142,13 +142,13 @@ public class mod_ElementsModConfig extends BaseMod
 	@Override
 	public String getVersion() 
 	{
-		return null;
+		return "1.2.3";
 	}
 
 	@Override
 	public void load() 
 	{
-		
+		// TODO Auto-generated method stub
 	}
 	Minecraft mc;
 }

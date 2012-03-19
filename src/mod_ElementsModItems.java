@@ -1463,11 +1463,12 @@ public class mod_ElementsModItems extends BaseMod
 	@Override
 	public String getVersion() 
 	{
-		return "ElementsModItems";
+		return "1.2.3";
 	}
 
 	@Override
 	public void load() 
 	{
+		// TODO Auto-generated method stub
 	}
 }

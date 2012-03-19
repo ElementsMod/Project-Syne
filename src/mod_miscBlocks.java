@@ -7,7 +7,7 @@ public class mod_miscBlocks extends BaseMod
 {
 
 	public String Version(){
-		return "1.8.1";
+		return "1.2.3";
 	}
 
 	public mod_miscBlocks()
@@ -186,13 +186,13 @@ public class mod_miscBlocks extends BaseMod
 	@Override
 	public String getVersion() 
 	{
-		return null;
+		return "0.1";
 	}
 
 	@Override
 	public void load() 
 	{
-		
+		// TODO Auto-generated method stub
 	}
 
 }

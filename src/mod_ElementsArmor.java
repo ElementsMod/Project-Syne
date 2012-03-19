@@ -4,7 +4,7 @@ public class mod_ElementsArmor extends BaseMod
 {
 	public String Version()
 	{
-		return "1.8.1";
+		return "1.2.3";
 	}
 	
 	public static final Item HazmatHelmet = new ItemArmor (1110, EnumArmorMaterial.CLOTH, ModLoader.addArmor("hazmat"), 0).setItemName("Hazmat Mask");
@@ -52,11 +52,12 @@ public class mod_ElementsArmor extends BaseMod
 	@Override
 	public String getVersion() 
 	{
-		return null;
+		return "0.1";
 	}
 
 	@Override
 	public void load() 
 	{
+		// TODO Auto-generated method stub
 	}
 }

@@ -14,7 +14,7 @@ public class mod_ElementsModSolidBlocks extends BaseMod
 {
 	public String Version()
 	{
-		return "1.8.1";
+		return "1.2.3";
 	} 
 	
 	private static mod_ElementsModConfig EM;
@@ -1395,20 +1395,20 @@ public class mod_ElementsModSolidBlocks extends BaseMod
 	{
 		return "ElementsMod";
 	}
-	
-	@Override
-	public String getVersion() 
-	{
-		return "0.1";
-	}
 
 	@Override
 	public void load() 
 	{
+		// TODO Auto-generated method stub
 	}
 	
 	public String Author()
 	{
-		return "ghosrec35, jamolnng, and metalhead";
+		return "ghosrec35, metalhead, and jamolnng";
+	}
+	@Override
+	public String getVersion() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

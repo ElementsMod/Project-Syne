@@ -64,14 +64,12 @@ public class mod_ElementsModGasBlocks extends BaseMod {
 	@Override
 	public String getVersion() 
 	{
-		// TODO Auto-generated method stub
-		return null;
+		return "1.2.3";
 	}
 
 	@Override
 	public void load() 
 	{
 		// TODO Auto-generated method stub
-		
 	}
 }
