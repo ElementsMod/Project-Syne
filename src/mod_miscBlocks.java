@@ -5,11 +5,6 @@ import net.minecraft.src.forge.*;
 
 public class mod_miscBlocks extends BaseMod
 {
-
-	public String Version(){
-		return "1.2.3";
-	}
-
 	public mod_miscBlocks()
 	{
 		Condenser.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/elements/misc/purifier/purifierSide.png");
@@ -186,7 +181,7 @@ public class mod_miscBlocks extends BaseMod
 	@Override
 	public String getVersion() 
 	{
-		return "0.1";
+		return "1.2.3";
 	}
 
 	@Override

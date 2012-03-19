@@ -12,11 +12,6 @@ import net.minecraft.src.forge.*;
 
 public class mod_ElementsModSolidBlocks extends BaseMod
 {
-	public String Version()
-	{
-		return "1.2.3";
-	} 
-	
 	private static mod_ElementsModConfig EM;
 	
 	public mod_ElementsModSolidBlocks()
@@ -1407,8 +1402,8 @@ public class mod_ElementsModSolidBlocks extends BaseMod
 		return "ghosrec35, metalhead, and jamolnng";
 	}
 	@Override
-	public String getVersion() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getVersion() 
+	{
+		return "1.2.3";
 	}
 }

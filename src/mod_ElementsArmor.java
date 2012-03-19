@@ -1,12 +1,7 @@
 package net.minecraft.src;
 
 public class mod_ElementsArmor extends BaseMod
-{
-	public String Version()
-	{
-		return "1.2.3";
-	}
-	
+{	
 	public static final Item HazmatHelmet = new ItemArmor (1110, EnumArmorMaterial.CLOTH, ModLoader.addArmor("hazmat"), 0).setItemName("Hazmat Mask");
 	public static final Item HazmatBody = new ItemArmor (1111, EnumArmorMaterial.CLOTH, ModLoader.addArmor("hazmat"), 1).setItemName("Hazmat Body");
 	public static final Item HazmatPants= new ItemArmor (1112, EnumArmorMaterial.CLOTH, ModLoader.addArmor("hazmat"), 2).setItemName("Hazmat Pants");
@@ -48,11 +43,10 @@ public class mod_ElementsArmor extends BaseMod
             Character.valueOf('Y'), Block.dirt //i don't know yet
         });
 	}
-
-	@Override
-	public String getVersion() 
+	
+	public String getVersion()
 	{
-		return "0.1";
+		return "1.2.3";
 	}
 
 	@Override
