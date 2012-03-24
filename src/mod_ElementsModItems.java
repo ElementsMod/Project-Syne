@@ -1374,7 +1374,7 @@ public class mod_ElementsModItems extends BaseMod
 		AluminiumHelmet = (new ItemElementsArmor(7508, Armor.ALUMINIUM, ModLoader.addArmor("Aluminium"), 0)).setIconIndex(2).setItemName("Aluminium Helmet");
 		AluminiumChestplate = (new ItemElementsArmor(7509, Armor.ALUMINIUM, ModLoader.addArmor("Aluminium"), 1)).setIconIndex(18).setItemName("Aluminium Chestplate");
 		AluminiumLeggings = (new ItemElementsArmor(7510, Armor.ALUMINIUM, ModLoader.addArmor("Aluminium"), 2)).setIconIndex(34).setItemName("Aluminium Leggings");
-		AluminiumBoots = (new ItemElementsArmor(7511, Armor.ALUMINIUM, ModLoader.addArmor("Aluminium"), 3)).setIconIndex(12).setItemName("Aluminium Leggings");
+		AluminiumBoots = (new ItemElementsArmor(7511, Armor.ALUMINIUM, ModLoader.addArmor("Aluminium"), 3)).setIconIndex(50).setItemName("Aluminium Leggings");
 		
 		TitaniumHelmet = (new ItemElementsArmor(7512, Armor.TITANIUM, ModLoader.addArmor("Titanium"), 0)).setIconIndex(3).setItemName("Titanium Helmet");
 		TitaniumChestplate = (new ItemElementsArmor(7513, Armor.TITANIUM, ModLoader.addArmor("Titanium"), 1)).setIconIndex(19).setItemName("Titanium Chestplate");
