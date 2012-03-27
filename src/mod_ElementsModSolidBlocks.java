@@ -584,7 +584,7 @@ public class mod_ElementsModSolidBlocks extends BaseMod
 
 
     //Block Generation
-	public void GenerateSurface(World world, Random random, int chunkX,int chunkZ)
+	public void generateSurface(World world, Random random, int chunkX,int chunkZ)
 	{
 		int pozX;
 		int pozY;
@@ -1336,7 +1336,7 @@ public class mod_ElementsModSolidBlocks extends BaseMod
 	private Minecraft mc = ModLoader.getMinecraftInstance();
 	public boolean gui = true;
 	
-	public boolean OnTickInGame(float f, Minecraft minecraft) 
+	public boolean onTickInGame(float f, Minecraft minecraft) 
 	{
 		   messageInt++;
 			   if(messageInt == 5)
@@ -1346,7 +1346,7 @@ public class mod_ElementsModSolidBlocks extends BaseMod
 		   		}
 	return true;
 	}
-	public boolean OnTickInGUI(float f, Minecraft minecraft, GuiScreen guiscreen)
+	public boolean onTickInGUI(float f, Minecraft minecraft, GuiScreen guiscreen)
     {
 		if(guiscreen instanceof GuiContainer)
 		{
